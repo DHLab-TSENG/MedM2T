@@ -1,48 +1,75 @@
-﻿,feature_name,data_type,n_patients,n_ecgs,n_records,prop_missing (%),mean,std,min,median,max,prop_binary1 (%)
-demographics,gender,numerical,64227,170777,170777,0.0%,0.5 ,0.5 ,0.0 ,0.0 ,1.0 ,
-demographics,age,numerical,64227,170777,170777,0.0%,60.2 ,16.4 ,18.0 ,61.0 ,89.0 ,
-latest outpatient measurements,SBP,numerical,43703,133749,133749,21.7%,127.1 ,19.1 ,55.0 ,126.0 ,244.0 ,
-latest outpatient measurements,SBP_flag,categorical,64227,170777,170777,0.0%,,,,,,78.3%
-latest outpatient measurements,DBP,numerical,43703,133749,133749,21.7%,72.7 ,12.7 ,0.0 ,72.0 ,167.0 ,
-latest outpatient measurements,DBP_flag,categorical,64227,170777,170777,0.0%,,,,,,78.3%
-latest outpatient measurements,Weight,numerical,47930,142026,142026,16.8%,751.6 ,253041.7 ,0.0 ,77.1 ,95362242.9 ,
-latest outpatient measurements,Weight_flag,categorical,64227,170777,170777,0.0%,,,,,,83.2%
-latest outpatient measurements,Height,numerical,45421,135277,135277,20.8%,167.2 ,15.0 ,0.0 ,167.6 ,1696.7 ,
-latest outpatient measurements,Height_flag,categorical,64227,170777,170777,0.0%,,,,,,79.2%
-medical history,hyperlipidemia,categorical,64227,170777,170777,0.0%,,,,,,29.3%
-medical history,DM,categorical,64227,170777,170777,0.0%,,,,,,22.1%
-medical history,afib,categorical,64227,170777,170777,0.0%,,,,,,12.7%
-medical history,hypertension,categorical,64227,170777,170777,0.0%,,,,,,42.8%
-medical history,PAD,categorical,64227,170777,170777,0.0%,,,,,,4.0%
-medical history,CHD,categorical,64227,170777,170777,0.0%,,,,,,13.6%
-medical history,CABG,categorical,64227,170777,170777,0.0%,,,,,,1.6%
-medical history,PCI,categorical,64227,170777,170777,0.0%,,,,,,3.3%
-medical history,Stroke,categorical,64227,170777,170777,0.0%,,,,,,3.1%
-medical history,HF,categorical,64227,170777,170777,0.0%,,,,,,13.3%
-medications history,C01A,categorical,64227,170777,170777,0.0%,,,,,,3.1%
-medications history,C01B,categorical,64227,170777,170777,0.0%,,,,,,5.8%
-medications history,C01C,categorical,64227,170777,170777,0.0%,,,,,,11.3%
-medications history,C01D,categorical,64227,170777,170777,0.0%,,,,,,12.4%
-medications history,C01E,categorical,64227,170777,170777,0.0%,,,,,,1.0%
-medications history,C02A,categorical,64227,170777,170777,0.0%,,,,,,4.2%
-medications history,C02C,categorical,64227,170777,170777,0.0%,,,,,,2.1%
-medications history,C02D,categorical,64227,170777,170777,0.0%,,,,,,13.8%
-medications history,C02K,categorical,64227,170777,170777,0.0%,,,,,,0.0%
-medications history,C03A,categorical,64227,170777,170777,0.0%,,,,,,10.5%
-medications history,C03B,categorical,64227,170777,170777,0.0%,,,,,,3.9%
-medications history,C03C,categorical,64227,170777,170777,0.0%,,,,,,26.9%
-medications history,C03D,categorical,64227,170777,170777,0.0%,,,,,,7.2%
-medications history,C03E,categorical,64227,170777,170777,0.0%,,,,,,0.9%
-medications history,C03X,categorical,64227,170777,170777,0.0%,,,,,,0.2%
-medications history,C04A,categorical,64227,170777,170777,0.0%,,,,,,0.0%
-medications history,C05A,categorical,64227,170777,170777,0.0%,,,,,,0.7%
-medications history,C05B,categorical,64227,170777,170777,0.0%,,,,,,0.0%
-medications history,C07A,categorical,64227,170777,170777,0.0%,,,,,,38.1%
-medications history,C08C,categorical,64227,170777,170777,0.0%,,,,,,17.2%
-medications history,C08D,categorical,64227,170777,170777,0.0%,,,,,,7.0%
-medications history,C09A,categorical,64227,170777,170777,0.0%,,,,,,22.4%
-medications history,C09B,categorical,64227,170777,170777,0.0%,,,,,,0.0%
-medications history,C09C,categorical,64227,170777,170777,0.0%,,,,,,9.0%
-medications history,C09D,categorical,64227,170777,170777,0.0%,,,,,,0.0%
-medications history,C09X,categorical,64227,170777,170777,0.0%,,,,,,0.1%
-medications history,C10A,categorical,64227,170777,170777,0.0%,,,,,,36.1%
+﻿itemid,feature_name,data_type,n_patients,n_records,prop_missing (%),mean,std,min,median,max,n_categories,top_category,n_top_category
+50802,Base Excess,numerical,24229,106881,39.7%,-1.8 ,5.2 ,-413.0 ,-1.0 ,100.0 ,,,
+50808,Free Calcium,numerical,18005,62406,55.2%,1.1 ,0.5 ,0.2 ,1.1 ,132.0 ,,,
+50809,Glucose,numerical,12398,57793,69.1%,145.1 ,49.0 ,0.1 ,137.0 ,854.0 ,,,
+50810,"Hematocrit, Calculated",numerical,10062,28354,74.9%,29.3 ,6.1 ,0.0 ,29.0 ,234.0 ,,,
+50812,Intubated,categorical,14696,28153,63.4%,,,,,,2,INTUBATED.,23931
+50813,Lactate,numerical,23921,70723,40.4%,2.8 ,2.4 ,0.0 ,2.1 ,37.0 ,,,
+50825,Temperature,numerical,8084,16161,79.9%,36.8 ,1.3 ,10.0 ,36.9 ,48.2 ,,,
+50828,Ventilator,categorical,8779,13429,78.1%,,,,,,3,CONTROLLED.,11394
+50861,Alanine Aminotransferase (ALT),numerical,16748,24684,58.3%,300.1 ,1102.3 ,0.0 ,37.0 ,61854.0 ,,,
+50862,Albumin,numerical,10937,13710,72.8%,3.1 ,0.7 ,0.8 ,3.1 ,5.7 ,,,
+50863,Alkaline Phosphatase,numerical,16471,24017,59.0%,112.4 ,119.6 ,4.0 ,79.0 ,2476.0 ,,,
+50868,Anion Gap,numerical,39591,84415,1.4%,14.5 ,4.5 ,-9.0 ,14.0 ,157.0 ,,,
+50878,Asparate Aminotransferase (AST),numerical,16730,24560,58.3%,446.7 ,1588.5 ,0.0 ,54.0 ,42606.0 ,,,
+50882,Bicarbonate,numerical,39651,85554,1.3%,22.6 ,4.6 ,0.0 ,23.0 ,50.0 ,,,
+50885,"Bilirubin, Total",numerical,16597,24639,58.7%,2.3 ,4.9 ,0.0 ,0.8 ,78.0 ,,,
+50893,"Calcium, Total",numerical,35726,71287,11.1%,8.3 ,1.4 ,-0.4 ,8.3 ,147.0 ,,,
+50902,Chloride,numerical,39695,105403,1.2%,104.9 ,6.7 ,0.0 ,105.0 ,405.0 ,,,
+50910,Creatine Kinase (CK),numerical,11030,19247,72.5%,2445.4 ,13090.2 ,5.0 ,241.0 ,472680.0 ,,,
+50911,"Creatine Kinase, MB Isoenzyme",numerical,10929,20384,72.8%,33.8 ,80.9 ,0.9 ,7.0 ,673.0 ,,,
+50912,Creatinine,numerical,39665,86364,1.2%,1.4 ,1.6 ,0.0 ,1.0 ,117.0 ,,,
+50920,Estimated GFR (MDRD equation),numerical,9300,9450,76.8%,67.3 ,15.8 ,4.5 ,75.0 ,75.0 ,,,
+50931,Glucose,numerical,39666,143518,1.2%,144.6 ,63.4 ,0.0 ,131.0 ,2440.0 ,,,
+50954,Lactate Dehydrogenase (LD),numerical,10874,14542,72.9%,711.1 ,1603.7 ,10.0 ,299.0 ,30200.0 ,,,
+50960,Magnesium,numerical,37889,76968,5.7%,2.1 ,0.6 ,0.0 ,2.0 ,47.0 ,,,
+50970,Phosphate,numerical,35852,71597,10.7%,3.7 ,1.5 ,0.0 ,3.5 ,34.2 ,,,
+50971,Potassium,numerical,39705,141376,1.2%,4.3 ,1.3 ,0.0 ,4.2 ,303.0 ,,,
+50983,Sodium,numerical,39705,113308,1.2%,137.7 ,6.6 ,0.0 ,138.0 ,1036.0 ,,,
+51003,Troponin T,numerical,12261,28382,69.5%,0.6 ,2.2 ,0.0 ,0.0 ,51.8 ,,,
+51006,Urea Nitrogen,numerical,39655,85888,1.3%,26.1 ,22.1 ,0.9 ,19.0 ,257.0 ,,,
+51146,Basophils,numerical,15099,17238,62.4%,0.2 ,0.3 ,0.0 ,0.2 ,8.0 ,,,
+51200,Eosinophils,numerical,15098,17237,62.4%,1.0 ,1.9 ,0.0 ,0.4 ,55.6 ,,,
+51214,"Fibrinogen, Functional",numerical,10428,16026,74.0%,255.8 ,147.2 ,26.0 ,212.0 ,1466.0 ,,,
+51221,Hematocrit,numerical,39561,103300,1.5%,31.3 ,6.0 ,0.0 ,30.9 ,67.7 ,,,
+51222,Hemoglobin,numerical,39495,116557,1.7%,10.3 ,2.1 ,0.0 ,10.2 ,78.0 ,,,
+51237,INR(PT),numerical,34100,66167,15.1%,1.5 ,0.8 ,0.6 ,1.3 ,27.4 ,,,
+51244,Lymphocytes,numerical,15122,17319,62.4%,13.3 ,11.3 ,0.0 ,10.9 ,100.0 ,,,
+51248,MCH,numerical,39400,86209,1.9%,30.2 ,2.5 ,15.7 ,30.3 ,58.3 ,,,
+51249,MCHC,numerical,39400,86238,1.9%,33.3 ,1.6 ,23.7 ,33.3 ,70.4 ,,,
+51250,MCV,numerical,39407,86213,1.9%,90.8 ,6.8 ,53.0 ,91.0 ,135.0 ,,,
+51254,Monocytes,numerical,15099,17241,62.4%,5.1 ,4.3 ,0.0 ,4.3 ,85.0 ,,,
+51256,Neutrophils,numerical,15099,17242,62.4%,77.5 ,14.8 ,0.0 ,80.7 ,100.0 ,,,
+51265,Platelet Count,numerical,39496,88629,1.7%,185.9 ,100.0 ,4.0 ,169.0 ,2360.0 ,,,
+51274,PT,numerical,34100,66175,15.1%,16.1 ,8.3 ,8.0 ,14.1 ,185.0 ,,,
+51275,PTT,numerical,33873,68181,15.7%,39.9 ,24.8 ,0.0 ,31.3 ,187.3 ,,,
+51277,RDW,numerical,39396,86191,1.9%,14.9 ,2.3 ,10.7 ,14.4 ,36.0 ,,,
+51279,Red Blood Cells,numerical,39408,86233,1.9%,3.5 ,0.7 ,0.6 ,3.5 ,7.7 ,,,
+51301,White Blood Cells,numerical,39487,86591,1.7%,12.8 ,10.4 ,0.0 ,11.2 ,462.6 ,,,
+51463,Bacteria,categorical,7407,7832,81.6%,,,,,,6,FEW,3932
+51464,Bilirubin,categorical,9288,10073,76.9%,,,,,,4,NEG,9036
+51466,Blood,categorical,9288,10079,76.9%,,,,,,5,NEG,3620
+51476,Epithelial Cells,numerical,7407,7832,81.6%,0.9 ,4.1 ,0.0 ,0.0 ,193.0 ,,,
+51478,Glucose,categorical,9287,10080,76.9%,,,,,,3,NEG,8182
+51484,Ketone,categorical,9288,10073,76.9%,,,,,,2,NEG,6968
+51486,Leukocytes,categorical,9288,10076,76.9%,,,,,,5,NEG,6233
+51487,Nitrite,categorical,9288,10072,76.9%,,,,,,2,NEG,9838
+51491,pH,numerical,9327,10139,76.8%,5.9 ,0.7 ,1.0 ,6.0 ,9.0 ,,,
+51492,Protein,categorical,9264,10043,76.9%,,,,,,4,TR,7215
+51493,RBC,numerical,7403,7833,81.6%,41.0 ,103.7 ,0.0 ,6.0 ,1001.0 ,,,
+51498,Specific Gravity,numerical,9303,10109,76.8%,1.0 ,0.0 ,0.1 ,1.0 ,1.1 ,,,
+51512,Urine Mucous,categorical,5100,5316,87.3%,,,,,,5,RARE,4108
+51514,Urobilinogen,categorical,9287,10072,76.9%,,,,,,2,NEG,10049
+51516,WBC,numerical,7401,7829,81.6%,24.5 ,66.0 ,0.0 ,4.0 ,1001.0 ,,,
+51519,Yeast,categorical,7409,7827,81.6%,,,,,,6,NONE,7537
+52172,RDW-SD,numerical,16650,39173,58.5%,49.1 ,8.2 ,30.1 ,47.3 ,120.4 ,,,
+220224,Arterial O2 pressure,numerical,19892,89020,50.5%,223.0 ,6702.8 ,15.0 ,139.0 ,999998.0 ,,,
+220227,Arterial O2 Saturation,numerical,9584,24313,76.1%,96.3 ,10.5 ,0.0 ,97.0 ,985.0 ,,,
+220235,Arterial CO2 Pressure,numerical,19892,89027,50.5%,86.0 ,6702.6 ,0.0 ,40.0 ,999998.0 ,,,
+220274,PH (Venous),numerical,8632,14805,78.5%,7.3 ,0.1 ,0.0 ,7.4 ,7.7 ,,,
+223679,TCO2 (calc) Venous,numerical,6507,11689,83.8%,24.7 ,7.1 ,0.0 ,24.0 ,80.0 ,,,
+223830,PH (Arterial),numerical,20016,92539,50.2%,7.4 ,0.1 ,0.0 ,7.4 ,7.8 ,,,
+225664,Glucose finger stick (range 70-100),numerical,28838,150358,28.2%,147.8 ,64.5 ,0.0 ,130.0 ,1621.0 ,,,
+225698,TCO2 (calc) Arterial,numerical,19891,89020,50.5%,24.1 ,4.6 ,0.0 ,24.0 ,74.0 ,,,
+226062,Venous CO2 Pressure,numerical,6507,11690,83.8%,43.8 ,13.7 ,9.0 ,42.0 ,139.0 ,,,
+226063,Venous O2 Pressure,numerical,6511,11697,83.8%,59.0 ,40.9 ,4.0 ,46.0 ,527.0 ,,,

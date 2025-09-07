@@ -1,0 +1,144 @@
+﻿mapped_terms,CVD: n_records,mortality: n_records
+Wide QRS complex,145,4
+Septal infarction by EKG,15356,618
+EKG hypertrophy,69282,2166
+Pericarditis (disorder),2492,122
+Tachycardia (finding),73404,3486
+Intraventricular conduction defect (disorder),31365,1260
+Hypocalcemia (disorder),103,
+Inferior infarction by EKG,84960,3926
+Long QT syndrome (disorder),1880,48
+Pacemaker rhythm,16211,463
+Multifocal PVCs,4348,177
+Sinus tachycardia,69253,3308
+Ventricular bigeminy,506,9
+Hyperkalemia,1788,58
+Atrial arrhythmia,16,2
+Myocardial infarction ,179588,8494
+ST depression,12993,468
+Dextrocardia (disorder),245,20
+Complete atrioventricular block (disorder),380,14
+Indeterminate axis by EKG,5635,384
+Abnormal cardiac conduction (finding),165,6
+Interpolated PVCs,1409,63
+Left axis deviation,115940,4394
+Anterolateral infarction by EKG,3836,167
+Right bundle branch block AND incomplete left bundle branch block (disorder),75,
+Right axis deviation,17647,918
+Shortened PR interval,11278,606
+Atrioventricular dissociation (disorder),17,
+Mobitz type I Wenckebach atrioventricular block,278,6
+Acute anterior myocardial infarction,162,21
+Acute infarct (morphologic abnormality),10913,971
+ECG ST segment changes,155211,7328
+T wave inversion,646,69
+Accelerated idioventricular rhythm,2679,158
+Supraventricular extrasystoles,1853,47
+Posterior infarction by EKG,459,9
+Wolff-Parkinson-White pattern,571,15
+ST segment elevation,26860,1517
+Acute inferoposterior infarction,120,2
+Shortened QT interval (finding),696,54
+Acute septal infarction,39,4
+Ventricular hypertrophy by EKG,60016,1851
+Dextrocardia/situs inversus finding,323,28
+Abnormal ECG,359304,15868
+Prolonged QT interval,37546,2027
+Within Normal Limits,1220,30
+ECG normal,156707,2529
+EKG myocardial ischemia,64061,3657
+ECG: myocardial infarction,1286,93
+ECG: anteroseptal infarction,30241,1519
+ECG: lateral infarction,9004,395
+ECG: Left ventricular hypertrophy,73414,2147
+Electrocardiographic right ventricular hypertrophy,6731,267
+ECG: PVCs - Premature ventricular complexes,46871,1866
+Electrocardiographic atrial ectopics (finding),35710,1307
+ECG: atrial fibrillation,81330,3082
+ECG: atrial flutter,14379,590
+ECG: ventricular tachycardia,735,44
+Right bundle branch block (RBBB) on electrocardiogram,65901,2559
+Electrocardiographic left bundle branch block,29693,1432
+Electrocardiographic P wave abnormal (finding),205,13
+Electrocardiographic Q wave abnormal (finding),1971,74
+Pathological Q wave ,379,28
+Electrocardiographic R wave abnormal (finding),47113,1765
+Tall R wave,610,29
+Deep S wave (finding),94,7
+EKG: T wave abnormal,8094,176
+Prolonged PR interval ,7748,157
+Electrocardiographic QRS complex abnormal (finding),170,7
+Partial atrioventricular block (disorder),3346,159
+Second degree atrioventricular block (disorder),250,6
+Ventricular fibrillation and flutter (disorder),89,3
+Wandering atrial pacemaker,26,
+Acute Q wave infarction - anteroseptal,118,9
+Acute Q wave infarction - anterolateral,69,4
+Acute Q wave infarction - inferior,329,35
+Acute Q wave infarction - inferolateral,100,
+Acute Q wave infarction - lateral,75,2
+Old anterior myocardial infarction,720,18
+Old inferior myocardial infarction,2547,57
+Old lateral myocardial infarction,814,72
+Ectopic atrial tachycardia,1273,40
+AV block,63071,2217
+Type B Wolff-Parkinson-White pattern,41,2
+Incomplete left bundle branch block,852,14
+Incomplete right bundle branch block (disorder),23,
+rSr pattern in V1 and V2,17733,585
+Borderline normal ECG,172925,5347
+Low QRS voltages,74602,4344
+Low QRS voltages in the limb leads,19675,1631
+Low QRS voltages in the precordial leads,45963,1960
+Sinus rhythm,649394,19259
+Wide QRS ventricular tachycardia,244,9
+Slow ventricular response,8731,452
+Atrio-ventricular-junctional (nodal) bradycardia,63,4
+Supraventricular bigeminy,447,4
+Multiple atrial premature complexes,563,8
+Multiple premature ventricular complexes,1329,11
+Multiple interpolated VPCs (ventricular premature complexes),6,
+Ventricular trigeminy,266,6
+Aberrantly conducted complex,352,1
+R wave height decreased (finding),33,1
+Tall U wave,1824,58
+Cardiac pacemaker electrocardiographic pattern (observable entity),247,3
+Ventricular pacing pattern,10198,268
+AV sequential pacing pattern,3582,106
+Atrial pacing pattern (finding),9438,412
+Right atrial abnormality,3891,155
+Left atrial abnormality ,20831,529
+First degree atrioventricular block (disorder),58941,2035
+Regular fetal heart rhythm,158,6
+Finding of cardiac pacemaker electrocardiographic pattern,1648,25
+T wave changes only (finding),277337,12120
+Ectopic atrial beats (disorder),14444,430
+EKG: lateral ischemia,104518,5099
+ECG: idioventricular rhythm,3974,276
+ECG: sinus bradycardia,99249,2212
+ECG: Mobitz type II atrioventricular block,227,9
+ECG: junctional rhythm,4228,352
+ECG: junctional tachycardia,172,4
+ECG: accelerated junctional rhythm,3166,248
+ECG: supraventricular tachycardia,994,33
+Electrocardiogram: premature ventricular contractions (finding),3252,90
+ECG: sinus arrhythmia,26322,845
+Early repolarization (finding),28980,982
+Paired ventricular premature complexes on electrocardiogram,575,3
+Ventricular escape rhythm on electrocardiogram,21,
+Anterior myocardial infarction on electrocardiogram,50735,2187
+Left anterior fascicular block on electrocardiogram (finding),49044,1780
+Left posterior fascicular block on electrocardiogram (finding),1101,28
+Non-specific intraventricular conduction delay (disorder),2917,45
+Lateral ST segment elevation,95588,4782
+Inferior ST segment elevation,11109,651
+Anterior ST segment elevation,2298,38
+Inferior and lateral ST segment elevation,37994,1889
+Electrocardiographic atrial tachycardia (finding),2028,88
+ECG: Incomplete right bundle branch block,1106,25
+Regular wide complex tachycardia,27,
+Non-sustained monomorphic ventricular tachycardia,408,30
+Cardiac ventricular pacemaker lead,1954,33
+Left atrial enlargement,15315,102
+Right atrial enlargement,333,1
+Atrial fibrillation with rapid ventricular response,25178,1321

@@ -1,0 +1,10 @@
+﻿feature_name,data_type,n_records,mean,std,min,median,max
+rr_interval,numerical,25213,864.2,1626.8,235.0,750.0,29999.0
+p_onset,numerical,25213,6425.7,12249.3,7.0,40.0,29999.0
+p_end,numerical,25209,8132.0,13217.8,4.0,154.0,44288.0
+qrs_onset,numerical,25212,290.6,1502.4,17.0,200.0,29999.0
+qrs_end,numerical,25209,392.9,1507.5,91.0,296.0,29999.0
+t_end,numerical,25213,689.4,1505.8,235.0,600.0,29999.0
+p_axis,numerical,25074,6587.3,12395.8,-21846.0,61.0,32767.0
+qrs_axis,numerical,24465,170.3,2148.2,-180.0,16.0,29999.0
+t_axis,numerical,24982,215.3,2314.9,-180.0,45.0,32767.0

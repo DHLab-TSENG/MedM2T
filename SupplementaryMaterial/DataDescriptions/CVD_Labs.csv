@@ -1,0 +1,9 @@
+﻿itemid,feature_name,data_type,n_patients,n_ecgs,n_records,prop_missing (%),mean,std,min,median,max
+50920,eGFR,numerical,61973,166085,1872869,2.7%,61.3 ,18.7 ,4.0 ,72.0 ,75.0 
+51003,troponin_T,numerical,31977,105053,723202,38.5%,0.2 ,0.8 ,0.0 ,0.0 ,26.0 
+50910,creatinine_kinase,numerical,26690,94116,587855,44.9%,546.0 ,4953.5 ,2.0 ,91.0 ,591950.0 
+50911,creatine_kinase_MB,numerical,20039,76047,399423,55.5%,8.7 ,29.7 ,0.9 ,4.0 ,601.0 
+"52546, 50912, 52024, 51081",serum_creatinine,numerical,62221,167050,5259914,2.2%,1.6 ,1.9 ,0.0 ,1.0 ,736.0 
+50904,cholesterol_HDL,numerical,22235,74418,240968,56.4%,52.7 ,18.9 ,0.0 ,50.0 ,285.0 
+"50905, 50906",cholesterol_LDL,numerical,22034,73869,256327,56.7%,100.8 ,40.2 ,0.0 ,96.0 ,664.0 
+50907,cholesterol_total,numerical,22884,76787,254061,55.0%,184.1 ,53.7 ,5.0 ,179.0 ,1435.0 

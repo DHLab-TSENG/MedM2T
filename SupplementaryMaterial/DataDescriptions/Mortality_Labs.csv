@@ -1,0 +1,48 @@
+﻿,feature_name,data_type,n_patients,n_ecgs,n_records,prop_missing (%),mean,std,min,median,max,prop_binary1 (%)
+demographics,gender,numerical,64227,170777,170777,0.0%,0.5 ,0.5 ,0.0 ,0.0 ,1.0 ,
+demographics,age,numerical,64227,170777,170777,0.0%,60.2 ,16.4 ,18.0 ,61.0 ,89.0 ,
+latest outpatient measurements,SBP,numerical,43703,133749,133749,21.7%,127.1 ,19.1 ,55.0 ,126.0 ,244.0 ,
+latest outpatient measurements,SBP_flag,categorical,64227,170777,170777,0.0%,,,,,,78.3%
+latest outpatient measurements,DBP,numerical,43703,133749,133749,21.7%,72.7 ,12.7 ,0.0 ,72.0 ,167.0 ,
+latest outpatient measurements,DBP_flag,categorical,64227,170777,170777,0.0%,,,,,,78.3%
+latest outpatient measurements,Weight,numerical,47930,142026,142026,16.8%,751.6 ,253041.7 ,0.0 ,77.1 ,95362242.9 ,
+latest outpatient measurements,Weight_flag,categorical,64227,170777,170777,0.0%,,,,,,83.2%
+latest outpatient measurements,Height,numerical,45421,135277,135277,20.8%,167.2 ,15.0 ,0.0 ,167.6 ,1696.7 ,
+latest outpatient measurements,Height_flag,categorical,64227,170777,170777,0.0%,,,,,,79.2%
+medical history,hyperlipidemia,categorical,64227,170777,170777,0.0%,,,,,,29.3%
+medical history,DM,categorical,64227,170777,170777,0.0%,,,,,,22.1%
+medical history,afib,categorical,64227,170777,170777,0.0%,,,,,,12.7%
+medical history,hypertension,categorical,64227,170777,170777,0.0%,,,,,,42.8%
+medical history,PAD,categorical,64227,170777,170777,0.0%,,,,,,4.0%
+medical history,CHD,categorical,64227,170777,170777,0.0%,,,,,,13.6%
+medical history,CABG,categorical,64227,170777,170777,0.0%,,,,,,1.6%
+medical history,PCI,categorical,64227,170777,170777,0.0%,,,,,,3.3%
+medical history,Stroke,categorical,64227,170777,170777,0.0%,,,,,,3.1%
+medical history,HF,categorical,64227,170777,170777,0.0%,,,,,,13.3%
+medications history,C01A,categorical,64227,170777,170777,0.0%,,,,,,3.1%
+medications history,C01B,categorical,64227,170777,170777,0.0%,,,,,,5.8%
+medications history,C01C,categorical,64227,170777,170777,0.0%,,,,,,11.3%
+medications history,C01D,categorical,64227,170777,170777,0.0%,,,,,,12.4%
+medications history,C01E,categorical,64227,170777,170777,0.0%,,,,,,1.0%
+medications history,C02A,categorical,64227,170777,170777,0.0%,,,,,,4.2%
+medications history,C02C,categorical,64227,170777,170777,0.0%,,,,,,2.1%
+medications history,C02D,categorical,64227,170777,170777,0.0%,,,,,,13.8%
+medications history,C02K,categorical,64227,170777,170777,0.0%,,,,,,0.0%
+medications history,C03A,categorical,64227,170777,170777,0.0%,,,,,,10.5%
+medications history,C03B,categorical,64227,170777,170777,0.0%,,,,,,3.9%
+medications history,C03C,categorical,64227,170777,170777,0.0%,,,,,,26.9%
+medications history,C03D,categorical,64227,170777,170777,0.0%,,,,,,7.2%
+medications history,C03E,categorical,64227,170777,170777,0.0%,,,,,,0.9%
+medications history,C03X,categorical,64227,170777,170777,0.0%,,,,,,0.2%
+medications history,C04A,categorical,64227,170777,170777,0.0%,,,,,,0.0%
+medications history,C05A,categorical,64227,170777,170777,0.0%,,,,,,0.7%
+medications history,C05B,categorical,64227,170777,170777,0.0%,,,,,,0.0%
+medications history,C07A,categorical,64227,170777,170777,0.0%,,,,,,38.1%
+medications history,C08C,categorical,64227,170777,170777,0.0%,,,,,,17.2%
+medications history,C08D,categorical,64227,170777,170777,0.0%,,,,,,7.0%
+medications history,C09A,categorical,64227,170777,170777,0.0%,,,,,,22.4%
+medications history,C09B,categorical,64227,170777,170777,0.0%,,,,,,0.0%
+medications history,C09C,categorical,64227,170777,170777,0.0%,,,,,,9.0%
+medications history,C09D,categorical,64227,170777,170777,0.0%,,,,,,0.0%
+medications history,C09X,categorical,64227,170777,170777,0.0%,,,,,,0.1%
+medications history,C10A,categorical,64227,170777,170777,0.0%,,,,,,36.1%

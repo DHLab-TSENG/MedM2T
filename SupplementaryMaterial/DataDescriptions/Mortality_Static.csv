@@ -1,0 +1,5 @@
+﻿,feature_name,data_type,n_patients,n_records,prop_missing (%),mean,std,min,median,max,n_categories,top_category,n_top_category
+demographics,gender,categorical,40167,40167,0.0%,0.6 ,0.5 ,0.0 ,1.0 ,1.0 ,,,
+,age,numerical,40167,40167,0.0%,64.0 ,16.7 ,18.0 ,66.0 ,91.0 ,,,
+admission details,admission_type,categorical,40167,40167,0.0%,,,,,,9,EW EMER.,19339
+,admission_location,categorical,40167,40167,0.0%,,,,,,11,EMERGENCY ROOM,17787

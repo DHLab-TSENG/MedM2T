@@ -1,0 +1,16 @@
+- **item_id**: Identifier corresponding to the original *MIMIC-IV* item ID.
+- **feature_name**: Descriptive label of the feature.
+- **data_type**: Data type (*numerical* or *categorical*).
+- **n_records**: Total number of recorded entries.
+- **n_patients**: Number of unique patients associated with the records.
+- **n_ecgs**: Number of unique ECG identifiers (CVD dataset index) associated with the records.
+- **prop_missing (%)**: Proportion of missing values relative to the dataset sample size.
+- **mean**: Mean value (numerical only).
+- **std**: Standard deviation (numerical only).
+- **min**: Minimum value (numerical only).
+- **median**: Median value (numerical only).
+- **max**: Maximum value (numerical only).
+- **prop_binary1 (%)**: Proportion of category label “1” (binary categorical only).
+- **n_categories**: Number of distinct categories (categorical only).
+- **top_category**: Most frequent category.
+- **n_top_category**: Frequency count of the most frequent category.

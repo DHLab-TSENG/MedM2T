@@ -1,6 +1,8 @@
 # MedM2T: A MultiModal Framework for Time-Aware Modeling with Electronic Health Record and Electrocardiogram Data
-This repository contains the official implementation of MedM2T, as described in our paper:
-MedM2T: A MultiModal Framework for Time-Aware Modeling with Electronic Health Record and Electrocardiogram Data (submitted to IEEE Journal of Biomedical and Health Informatics).
+This repository contains the official implementation of **MedM2T**, as described in our paper:
+> *MedM2T: A MultiModal Framework for Time-Aware Modeling with Electronic Health Record and Electrocardiogram Data*  
+> Yu-Chen Kuo and Yi-Ju Tseng  
+> (submitted to IEEE Journal of Biomedical and Health Informatics)
 
 ### Supplementary Material
 The supplementary materials provide extended tables, figures, and detailed dataset descriptions.

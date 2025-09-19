@@ -1,0 +1,630 @@
+{
+  "50802": {
+    "type": "num"
+  },
+  "50804": {
+    "type": "num"
+  },
+  "50808": {
+    "type": "num",
+    "comments": {
+      "LESS THAN 0.25.  VERIFIED.": 0.24,
+      "LESS THAN 0.25.": 0.24
+    }
+  },
+  "50809": {
+    "type": "num",
+    "comments": {
+      "GREATER THAN 500.  VERIFIED.": 501,
+      "GREATER THAN 500.": 501,
+      ">500.  VERIFIED.": 501,
+      ">500.": 501,
+      "GREATER THAN 500*.": 501,
+      "GREATER THAN 800.  VERIFIED.": 801,
+      "GREATER THAN 500.  QNS TO VERIFY.": 501
+    }
+  },
+  "50810": {
+    "type": "num"
+  },
+  "50812": {
+    "type": "category",
+    "category": [
+      "INTUBATED.",
+      "NOT INTUBATED."
+    ]
+  },
+  "50813": {
+    "type": "num"
+  },
+  "50817": {
+    "type": "num"
+  },
+  "50818": {
+    "type": "num"
+  },
+  "50820": {
+    "type": "num"
+  },
+  "50821": {
+    "type": "num"
+  },
+  "50825": {
+    "type": "num"
+  },
+  "50828": {
+    "type": "category",
+    "category": [
+      "CONTROLLED.",
+      "SPONTANEOUS.",
+      "IMV."
+    ]
+  },
+  "50861": {
+    "type": "num",
+    "comments": {
+      "<5.": 4,
+      "LESS THAN 5.": 4,
+      "<5 .": 4,
+      "LESS THAN 15.  VERIFIED BY DILUTION.": 14,
+      "<5.  Verified By Replicate Analysis.": 4,
+      "<15.  VERIFIED BY DILUTION.": 14,
+      "<5.  Verified.": 4
+    }
+  },
+  "50862": {
+    "type": "num",
+    "comments": {
+      "<1.0*.": 0.9,
+      "LESS THAN 1.0.": 0.9
+    }
+  },
+  "50863": {
+    "type": "num",
+    "comments": {
+      "<5*.": 4
+    }
+  },
+  "50868": {
+    "type": "num"
+  },
+  "50878": {
+    "type": "num",
+    "comments": {
+      "<5.": 4,
+      "LESS THAN 15.  VERIFIED BY DILUTION.": 14,
+      "<5 .": 4,
+      "LESS THAN 5.": 4,
+      "<5.  Lipemia affects this test.": 4
+    }
+  },
+  "50882": {
+    "type": "num"
+  },
+  "50885": {
+    "type": "num",
+    "comments": {
+      "<0.2.": 0.1
+    }
+  },
+  "50893": {
+    "type": "num"
+  },
+  "50902": {
+    "type": "num"
+  },
+  "50806": {
+    "type": "num"
+  },
+  "50910": {
+    "type": "num"
+  },
+  "50911": {
+    "type": "num",
+    "comments": {
+      "<1.": 0.9,
+      "GREATER THAN 500.": 501,
+      ">600*.": 601,
+      "GREATER THAN 600.": 601,
+      ">500.": 501,
+      "GREATER THAN 500.  VERIFIED BY REPLICATE ANALYSIS.": 501,
+      "GREATER THAN 500*.": 501,
+      "<1 .": 0.9,
+      "LESS THAN 1.": 0.9
+    }
+  },
+  "50912": {
+    "type": "num",
+    "comments": {
+      "<0.2#.": 0.1,
+      "<0.2*.": 0.1
+    }
+  },
+  "52024": {
+    "type": "num"
+  },
+  "50920": {
+    "type": "num"
+  },
+  "50931": {
+    "type": "num"
+  },
+  "50954": {
+    "type": "num"
+  },
+  "50960": {
+    "type": "num"
+  },
+  "50970": {
+    "type": "num"
+  },
+  "50971": {
+    "type": "num",
+    "comments": {
+      ">10.0*.  Specimen not Hemolyzed.": 11
+    }
+  },
+  "50822": {
+    "type": "num",
+    "comments": {
+      "GREATER THAN 10.  VERIFIED.": 11,
+      "GREATER THAN 10.  VERIFIED.  GROSSLY HEMOLYZED.": 11
+    }
+  },
+  "50983": {
+    "type": "num"
+  },
+  "50824": {
+    "type": "num"
+  },
+  "51003": {
+    "type": "num",
+    "comments": {
+      "<0.01.  CTROPNT > 0.10 NG/ML SUGGESTS ACUTE MI.": 0.009,
+      "<0.01.  cTropnT > 0.10 ng/mL suggests Acute MI.": 0.009,
+      "LESS THAN 0.01.  CTROPNT > 0.10 NG/ML SUGGESTS ACUTE MI.": 0.009,
+      ">25*.  cTropnT > 0.10 ng/mL suggests Acute MI.": 26,
+      "<0.01.   cTropnT > 0.10 ng/mL suggests Acute MI.": 0.009,
+      "GREATER THAN 25.  CTROPNT > 0.10 NG/ML SUGGESTS ACUTE MI.": 26,
+      "< 0.01.  CTROPNT > 0.10 NG/ML SUGGESTS ACUTE MI.": 0.009,
+      "<0.010.  CTROPNT > 0.10 NG/ML SUGGESTS ACUTE MI.": 0.009,
+      "LESS THAN 0.010.  CTROPNT > 0.10 NG/ML SUGGESTS ACUTE MI.": 0.009
+    }
+  },
+  "51006": {
+    "type": "num",
+    "comments": {
+      "<3*.": 2,
+      "<1*.": 0.9
+    }
+  },
+  "51081": {
+    "type": "num"
+  },
+  "51101": {
+    "type": "num"
+  },
+  "52769": {
+    "type": "num"
+  },
+  "51146": {
+    "type": "num"
+  },
+  "51200": {
+    "type": "num"
+  },
+  "51214": {
+    "type": "num"
+  },
+  "51221": {
+    "type": "num"
+  },
+  "51222": {
+    "type": "num"
+  },
+  "50811": {
+    "type": "num"
+  },
+  "51237": {
+    "type": "num",
+    "comments": {
+      ">20.2.": 20.3,
+      ">19.2.": 19.3
+    }
+  },
+  "51244": {
+    "type": "num"
+  },
+  "51245": {
+    "type": "num"
+  },
+  "51248": {
+    "type": "num"
+  },
+  "51249": {
+    "type": "num"
+  },
+  "51250": {
+    "type": "num"
+  },
+  "51254": {
+    "type": "num"
+  },
+  "51256": {
+    "type": "num"
+  },
+  "51265": {
+    "type": "num",
+    "comments": {
+      "<5*.": 4,
+      "<5*.  VERIFIED BY SMEAR.": 4,
+      "<5*.  Verified by smear.": 4,
+      "<5*.  VERIFIED BY REPLICATE ANALYSIS.": 4,
+      "<5.": 4
+    }
+  },
+  "51274": {
+    "type": "num",
+    "comments": {
+      "150*.  150 IS THE HIGHEST MEASURED PT.": 150
+    }
+  },
+  "51275": {
+    "type": "num",
+    "comments": {
+      "UNABLE TO REPORT.  PTT < 20.": 19,
+      "UNABLE TO REPORT.  PTT <20.": 19,
+      "UNABLE TO REPORT.  PTT < 20.0.": 19,
+      "UNABLE TO REPORT.  APTT < 20 SECONDS.": 19,
+      "UNABLE TO REPORT.  APTT <20 SECONDS.": 19,
+      "UNABLE TO REPORT.  PTT < 20.0 SECONDS.  NO CLOT DETECTED.": 19,
+      ">150*.   150 IS HIGHEST MEASURED PTT.": 151,
+      "UNABLE TO REPORT, APTT <20 SECONDS.": 19,
+      "UNABLE TO REPORT.  PTT IS LESS THAN 20 SECONDS.": 19,
+      "UNABLE TO REPORT.  PTT <20 SECONDS.": 19,
+      "UNABLE TO REPORT,APTT <20 SECONDS.": 19
+    }
+  },
+  "51277": {
+    "type": "num"
+  },
+  "51279": {
+    "type": "num"
+  },
+  "51301": {
+    "type": "num",
+    "comments": {
+      "<0.1*.": 0.09,
+      "<0.1.": 0.09,
+      "<0.1*.  Differential not done on WBC <= 0.1.": 0.09
+    }
+  },
+  "51300": {
+    "type": "num"
+  },
+  "51463": {
+    "type": "category",
+    "category": [
+      "FEW",
+      "MOD",
+      "NONE",
+      "OCC",
+      "RARE",
+      "MANY"
+    ],
+    "mapping": {
+      "FEW.": "FEW",
+      "NONE.": "NONE",
+      "FEW*.": "FEW",
+      "MOD.": "MOD",
+      "MANY.": "MANY",
+      "MOD*.": "MOD",
+      "MANY*.": "MANY",
+      "0": "NONE",
+      "F": "FEW",
+      "LRG": "MANY",
+      "MO": "MOD"
+    }
+  },
+  "51464": {
+    "type": "category",
+    "category": [
+      "NEG",
+      "SM",
+      "MOD",
+      "LG"
+    ],
+    "mapping": {
+      "NEG.": "NEG",
+      "SM .": "SM",
+      "MOD.": "MOD",
+      "SM*.": "SM",
+      "LG.": "LG",
+      "MOD*.": "MOD",
+      "LG*.": "LG"
+    }
+  },
+  "51466": {
+    "type": "category",
+    "category": [
+      "LG",
+      "NEG",
+      "MOD",
+      "SM",
+      "TR"
+    ],
+    "mapping": {
+      "LGE": "LG",
+      "NEG.": "NEG",
+      "MOD.": "MOD",
+      "SM .": "SM",
+      "LG.": "LG",
+      "TR.": "TR",
+      "MOD*.": "MOD",
+      "SM*.": "SM",
+      "TR*.": "TR",
+      "LG*.": "LG"
+    }
+  },
+  "51476": {
+    "type": "num",
+    "comments": {
+      "<1.": 0.9,
+      ">182.": 183
+    }
+  },
+  "51478": {
+    "type": "category",
+    "category": [
+      "NEG",
+      "TR",
+      ">1000"
+    ],
+    "mapping": {
+      "NEG.": "NEG",
+      "TR.": "TR",
+      "TR*.": "TR",
+      ">1000.": ">1000",
+      ">1000*.": ">1000"
+    },
+    "value2category": {
+      "NEG": [
+        0,
+        1
+      ],
+      "TR": [
+        1,
+        1001
+      ],
+      ">1000": [
+        1001,
+        99999999
+      ]
+    }
+  },
+  "51084": {
+    "type": "category",
+    "category": [
+      "NEG",
+      "TR",
+      ">1000"
+    ],
+    "value2category": {
+      "NEG": [
+        0,
+        1
+      ],
+      "TR": [
+        1,
+        1001
+      ],
+      ">1000": [
+        1001,
+        99999999
+      ]
+    }
+  },
+  "51484": {
+    "type": "category",
+    "category": [
+      "NEG",
+      "TR",
+      ">150"
+    ],
+    "mapping": {
+      "NEG.": "NEG",
+      "TR.": "TR",
+      "TR*.": "TR",
+      ">150*.": ">150",
+      ">80": "TR"
+    },
+    "value2category": {
+      "NEG": [
+        0,
+        1
+      ],
+      "TR": [
+        1,
+        151
+      ],
+      ">150": [
+        151,
+        99999999
+      ]
+    }
+  },
+  "51486": {
+    "type": "category",
+    "category": [
+      "NEG",
+      "TR",
+      "SM",
+      "MOD",
+      "LG"
+    ],
+    "mapping": {
+      "NEG.": "NEG",
+      "LG.": "LG",
+      "SM .": "SM",
+      "TR.": "TR",
+      "MOD.": "MOD",
+      "LG*.": "LG",
+      "SM*.": "SM",
+      "TR*.": "TR",
+      "MOD*.": "MOD",
+      "MD": "MOD",
+      "SMALL": "SM",
+      "N": "NEG"
+    }
+  },
+  "51487": {
+    "type": "category",
+    "category": [
+      "NEG",
+      "POS"
+    ],
+    "mapping": {
+      "NEG.": "NEG",
+      "POS.": "POS",
+      "POS*.": "POS"
+    }
+  },
+  "51491": {
+    "type": "num"
+  },
+  "51094": {
+    "type": "num"
+  },
+  "51492": {
+    "type": "category",
+    "category": [
+      "NEG",
+      "TR",
+      ">300"
+    ],
+    "mapping": {
+      ">300": ">300",
+      ">=300": ">300",
+      ">600": ">600",
+      "NEG.": "NEG",
+      "TR.": "TR",
+      "TR*.": "TR",
+      ">600.": ">300",
+      ">600*.": ">300"
+    },
+    "value2category": {
+      "NEG": [
+        0,
+        1
+      ],
+      "TR": [
+        1,
+        301
+      ],
+      ">300": [
+        301,
+        99999999
+      ]
+    }
+  },
+  "51493": {
+    "type": "num",
+    "comments": {
+      ">182*.": 183,
+      "<1.": 0.9,
+      ">1000*.": 1001
+    }
+  },
+  "51498": {
+    "type": "num",
+    "comments": {
+      ">1.050*.": 1.051,
+      ">1.050*.  VERIFIED BY REFRACTOMETER.": 1.051,
+      ">1.050*.  VERIFY BY REFRACTOMETER.": 1.051,
+      ">1.050*.  Performed by refractometer.": 1.051,
+      ">1.050*.  VERIFIED BY ALTERNATE METHOD.": 1.051,
+      ">1.050*.  VERIFIED.": 1.051,
+      ">1.050*.  CONFERMED BY REFRECTOMETER.": 1.051,
+      ">1.050*.  Verified.": 1.051,
+      ">1.030.": 1.031,
+      ">1.035.": 1.036
+    }
+  },
+  "51512": {
+    "type": "category",
+    "category": [
+      "FEW",
+      "RARE",
+      "OCC",
+      "MOD",
+      "MANY"
+    ],
+    "mapping": {
+      "RARE.": "RARE",
+      "RARE*.": "RARE",
+      "OCC.": "OCC",
+      "FEW.": "FEW",
+      "OCC*.": "OCC",
+      "MANY.": "MANY",
+      "FEW*.": "FEW",
+      "MOD.": "MOD",
+      "MANY*.": "MANY",
+      "MOD*.": "MOD"
+    }
+  },
+  "51514": {
+    "type": "category",
+    "category": [
+      "NEG",
+      ">12"
+    ],
+    "mapping": {
+      "NEG.": "NEG",
+      "NORMAL.": "NEG",
+      ">8": "NEG",
+      ">12.": ">12",
+      ">12*.": ">12"
+    },
+    "value2category": {
+      "NEG": [
+        0,
+        13
+      ],
+      ">12": [
+        13,
+        99999999
+      ]
+    }
+  },
+  "51516": {
+    "type": "num",
+    "comments": {
+      "<1.": 0.9,
+      ">182*.": 183,
+      ">1000*.": 1001,
+      "<1 /HPF.": 0.9
+    }
+  },
+  "51519": {
+    "type": "category",
+    "category": [
+      "NONE",
+      "MANY",
+      "FEW",
+      "MOD",
+      "RARE",
+      "OCC"
+    ],
+    "mapping": {
+      "N": "NONE",
+      "F": "FEW",
+      "NONE.": "NONE",
+      "OCC*.": "OCC",
+      "MANY*.": "MANY",
+      "RARE*.": "RARE"
+    }
+  },
+  "52172": {
+    "type": "num"
+  }
+}

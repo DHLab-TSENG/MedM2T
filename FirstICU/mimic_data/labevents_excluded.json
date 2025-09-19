@@ -1,0 +1,373 @@
+{
+    "50861": [
+        "HEMOLYSIS FALSELY ELEVATES ALT.",
+        "Hemolysis falsely elevates this test.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.",
+        "<5.  Hemolysis falsely elevates this test.",
+        "Lipemia affects this test.",
+        "<5.  Lipemia affects this test.",
+        "Hemolysis falsely elevates this test.  Lipemia affects this test.",
+        "<5.  Hemolysis falsely elevates this test.  Lipemia affects this test.",
+        "VERIFIED BY DILUTION.  HEMOLYSIS  FALSELY INCREASES THIS RESULT.",
+        "Lipemia affects this test.  Verified By Dilution.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  MOD. HEMOLYSIS.",
+        "HEMOLYSIS  FALSELY DECREASES THIS RESULT.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  GROSS HEMOLYSIS.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  HEMOLYZED, MODERATELY.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  HEMOLYZED, SLIGHTLY.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  HEMOLYZED, GROSSLY."
+    ],
+    "50863": [
+        "Hemolysis falsely decreases this test.",
+        "HEMOLYSIS FALSELY DECREASES ALP..",
+        "HEMOLYSIS  FALSELY DECREASES THIS RESULT.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT."
+    ],
+    "50878": [
+        "Hemolysis falsely elevates this test.",
+        "Slightly Hemolyzed specimen.  Hemolysis falsely elevates this test.",
+        "HEMOLYSIS FALSELY ELEVATES AST..",
+        "HEMOLYSIS FALSELY ELEVATES AST.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.",
+        "Lipemia affects this test.",
+        "HEMOLYSIS FALSELY ELEVATES AST.  HEMOLYZED, MODERATELY.",
+        "HEMOLYSIS FALSELY ELEVATES AST.  HEMOLYZED, SLIGHTLY.",
+        "VERIFIED BY DILUTION.  HEMOLYSIS FALSELY ELEVATES AST.",
+        "Hemolysis falsely elevates this test.  Lipemia affects this test.",
+        "Slightly Hemolyzed specimen.  Hemolysis falsely elevates this test.  Lipemia affects this test.",
+        "Lipemia affects this test.  Verified By Dilution.",
+        "HEMOLYSIS FALSELY ELEVATES AST.  HEMOLYZED, GROSSLY.",
+        "Hemolysis falsely elevates this test.  Lipemia affects this test.  Verified By Dilution.",
+        "<5.  Lipemia affects this test."
+    ],
+    "51463": [
+        "UNABLE TO REPORT.",
+        "UNABLE TO PERFORM."
+    ],
+    "50802": [
+        "UNABLE TO REPORT."
+    ],
+    "51146": [
+        "ND .  Not Done, WBC <=0.1.",
+        "UNABLE TO REPORT.",
+        "NOT DONE.",
+        "UNABLE TO REPORT.   SPECIMEN CLOTTED."
+    ],
+    "50882": [
+        "Hemolysis falsely elevates this test."
+    ],
+    "51464": [
+        "UNABLE TO REPORT."
+    ],
+    "50885": [
+        "Hemolysis falsely elevates this test.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT."
+    ],
+    "51466": [
+        "UNABLE TO REPORT."
+    ],
+    "50893": [
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT."
+    ],
+    "50804": [
+        "UNABLE TO REPORT."
+    ],
+    "50910": [
+        "HEMOLYSIS FALSELY ELEVATES CK..  NEW REFERENCE INTERVAL AS OF ___;UPPER LIMIT (97.5TH %ILE) VARIES WITH ANCESTRY AND GENDER (MALE/FEMALE);WHITES 322/201  BLACKS 801/414  ASIANS 641/313.",
+        "Hemolysis falsely elevates this test.  New reference interval as of ___:.  Upper limit (97.5th %ile) varies with ancestry and gender (male/female).  whites 322/201  blacks 801/414  asians 641/313..",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.",
+        "HEMOLYSIS FALSELY ELEVATES CK..",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  NEW REFERENCE INTERVAL AS OF ___;UPPER LIMIT (97.5TH %ILE) VARIES WITH ANCESTRY AND GENDER (MALE/FEMALE);WHITES 322/201  BLACKS 801/414  ASIANS 641/313.",
+        "Hemolysis falsely elevates this test.  Upper limit (97.5th %ile) varies with ancestry and gender (male/female).  whites 322/201  blacks 801/414  asians 641/313..",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  NEW REFERENCE INTERVAL AS OF ___.  UPPER LIMIT (97.5TH %ILE) VARIES WITH ANCESTRY AND GENDER (MALE/FEMALE).  WHITES 322/201  BLACKS 801/414  ASIANS 641/313.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  HEMOLYZED, GROSSLY.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  HEMOLYZED, MODERATELY."
+    ],
+    "50911": [
+        "NotDone.  CK-MB NOT PERFORMED, TOTAL CK < 100."
+    ],
+    "50912": [
+        "POINT OF CARE.  Hydroxyurea may cause falsely elevated values with this method."
+    ],
+    "51200": [
+        "ND .  Not Done, WBC <=0.1.",
+        "UNABLE TO REPORT.",
+        "NOT DONE.",
+        "UNABLE TO REPORT.   SPECIMEN CLOTTED."
+    ],
+    "51476": [
+        "UNABLE TO REPORT.",
+        "UNABLE TO PERFORM."
+    ],
+    "51214": [
+        "UNABLE TO REPORT."
+    ],
+    "51478": [
+        "UNABLE TO REPORT."
+    ],
+    "51221": [
+        "UNABLE TO REPORT.",
+        "UNABLE TO REPORT.   SPECIMEN CLOTTED.",
+        "UNABLE TO REPORT CLOTTED.",
+        "UNABLE TO REPORT QNS.",
+        "UNABLE TO REPORT, SPECIMEN CLOTTED.",
+        "UNABLE.  UNABLE TO PERFORM TEST.",
+        "UNABLE TO RESULT."
+    ],
+    "51222": [
+        "UNABLE TO REPORT.",
+        "UNABLE TO REPORT.   SPECIMEN CLOTTED.",
+        "UNABLE TO REPORT CLOTTED.",
+        "UNABLE TO REPORT QNS.",
+        "UNABLE TO REPROT.",
+        "UNABLE.  UNABLE TO PERFORM TEST.",
+        "UNABLE TO REPORT.  SPECIMEN ICTERIC."
+    ],
+    "51237": [
+        "UNABLE TO REPORT.",
+        "UNABLE TO RESULT.",
+        "UNABLE TO REPORT.  SPECIMEN QNS.",
+        "UNABLE TO PERFORM.",
+        "UNABLE TO REPORT.  QNS.",
+        "UNABLE TO REPORT.  INR QNS.",
+        "UNABLE TO REPORT .",
+        "UNABLE TO REPORT, QNS.",
+        "UNABLE.  UNABLE TO PERFORM TEST.",
+        "UNABLE TO REPORT.  SPECIMEN CLOTTED.",
+        "UNABLE TO REPORT INR.",
+        "UNABLE TO REPORT.  QNS SPECIMEN.",
+        "UNABLE TO REPORT, CLOTTED SAMPLE.",
+        "UNABLE TO REPORT, SPECIMEN QNS.",
+        "UNABLE TO REPORT INR-SPECIMEN QNS.",
+        "UNABLE TO REPORT.  CLOTTED SPECIMEN.",
+        "UNABLE TO REPORT,QNS.",
+        "UNABLE TO PERFORM TEST.",
+        "UNABLE TO REPORT.  CLOTTED.",
+        "UNABLE.  UNABLE TO REPORT."
+    ],
+    "51484": [
+        "UNABLE TO REPORT."
+    ],
+    "50954": [
+        "Slightly Hemolyzed specimen.  Hemolysis falsely elevates this test.",
+        "Hemolysis falsely elevates this test.",
+        "SPECIMEN SLIGHTLY HEMOLYZED.  HEMOLYSIS FALSELY ELEVATES LDH..",
+        "SPECIMEN SLIGHTLY HEMOLYZED..  HEMOLYSIS FALSELY ELEVATES LDH..",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.",
+        "HEMOLYSIS FALSELY ELEVATES LDH..",
+        "HEMOLYSIS FALSELY ELEVATES LD.",
+        "SPECIMEN SLIGHTLY HEMOLYZED.  HEMOLYSIS FALSELY ELEVATES LDH..  HEMOLYSIS FALSELY ELEVATES LDH..",
+        "VERIFIED BY DILUTION.  HEMOLYSIS  FALSELY INCREASES THIS RESULT.",
+        "SLIGHT HEMOLYSIS.  HEMOLYSIS FALSELY ELEVATES LDH.",
+        "SLIGHTLY HEMOLYZED.  HEMOLYSIS  FALSELY INCREASES THIS RESULT.",
+        "SLIGHTLY HEMOLYZED.  HEMOLYSIS FALSELY ELEVATES LDH."
+    ],
+    "51486": [
+        "UNABLE TO REPORT."
+    ],
+    "51244": [
+        "ND .  Not Done, WBC <=0.1.",
+        "UNABLE TO REPORT.",
+        "NOT DONE.",
+        "UNABLE TO REPORT.   SPECIMEN CLOTTED."
+    ],
+    "50960": [
+        "HEMOLYSIS FALSELY ELEVATES MG..",
+        "HEMOLYSIS FALSELY ELEVATES Mg.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.",
+        "Hemolysis falsely elevates this test.",
+        "HEMOLYSIS FALSELY ELEVATES Mg.  HEMOLYZED, SLIGHTLY.",
+        "HEMOLYSIS FALSELY ELEVATES Mg.  HEMOLYZED, MODERATELY.",
+        "HEMOLYSIS FALSELY ELEVATES Mg.  HEMOLYZED, GROSSLY.",
+        "HEMOLYSIS FALSELY ELEVATES K.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  HEMOLYZED, SLIGHTLY.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  HEMOLYZED, MODERATELY."
+    ],
+    "51248": [
+        "UNABLE TO REPORT.",
+        "UNABLE TO REPORT.   SPECIMEN CLOTTED.",
+        "UNABLE TO REPORT CLOTTED.",
+        "UNABLE TO REPORT QNS.",
+        "UNABLE.  UNABLE TO PERFORM TEST.",
+        "UNABLE TO PERFORM."
+    ],
+    "51249": [
+        "UNABLE TO REPORT.",
+        "UNABLE TO REPORT.   SPECIMEN CLOTTED.",
+        "UNABLE TO REPORT CLOTTED.",
+        "UNABLE TO REPORT QNS.",
+        "UNABLE TO PERFORM.",
+        "UNABLE.  UNABLE TO PERFORM TEST."
+    ],
+    "51250": [
+        "UNABLE TO REPORT.",
+        "UNABLE TO REPORT.   SPECIMEN CLOTTED.",
+        "UNABLE TO REPORT CLOTTED.",
+        "UNABLE TO REPORT QNS.",
+        "UNABLE TO PERFORM."
+    ],
+    "51254": [
+        "ND .  Not Done, WBC <=0.1.",
+        "UNABLE TO REPORT.",
+        "NOT DONE.",
+        "UNABLE TO REPORT.   SPECIMEN CLOTTED."
+    ],
+    "51256": [
+        "ND .  Not Done, WBC <=0.1.",
+        "UNABLE TO REPORT.",
+        "NOT DONE.",
+        "UNABLE TO REPORT.   SPECIMEN CLOTTED."
+    ],
+    "51487": [
+        "UNABLE TO REPORT."
+    ],
+    "51491": [
+        "UNABLE TO REPORT.",
+        "PH OF 8.5 OR ABOVE MAY CAUSE FALSELY ELEVATED URINE PROTEIN."
+    ],
+    "50970": [
+        "Hemolysis falsely elevates this test.",
+        "HEMOLYSIS FALSELY ELEVATES P..",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  HEMOLYZED, MODERATELY.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  HEMOLYZED, GROSSLY.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  HEMOLYZED, SLIGHTLY."
+    ],
+    "51265": [
+        "UNABLE TO REPORT.",
+        "UNABLE TO REPORT.   SPECIMEN CLOTTED.",
+        "UNABLE TO REPORT CLOTTED.",
+        "UNABLE TO REPORT DUE TO PLT CLUMPS.",
+        "UNABLE TO REPORT.  Platelet clumps, blue top tube requested.",
+        "UNABLE TO REPORT DUE TO PLATELET CLUMPS.",
+        "UNABLE.  UNABLE TO PERFORM TEST.",
+        "UNABLE TO REPORT QNS.",
+        "UNABLE TO REPORT.  CLOTTED SPECIMEN.",
+        "UNABLE TO REPORT.  PLT CT MAYBE POSSIBLE WITH YELLOW/BLUE TOP TUBE.",
+        "UNABLE TO REPORT DUE TO CLUMPED PLATELETS.",
+        "UNABLE TO REPORT.  SPECIMEN CLOTTED.",
+        "UNABLE TO REPORT.  PLATELETS CLUMPED."
+    ],
+    "50971": [
+        "HEMOLYSIS FALSELY ELEVATES K..",
+        "Hemolysis falsely elevates this test.",
+        "HEMOLYSIS FALSELY ELEVATES K.",
+        "Hemolysis falsely elevates this test.  New reference range as of ___.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.",
+        "Slightly Hemolyzed specimen.  Hemolysis falsely elevates this test.",
+        "HEMOLYSIS FALSELY ELEVATES K.  HEMOLYZED, MODERATELY.",
+        "HEMOLYSIS FALSELY ELEVATES K.  HEMOLYZED, SLIGHTLY.",
+        "VERIFIED BY ALTERNATE METHODOLOGY.  HEMOLYSIS FALSELY ELEVATES K.",
+        "HEMOLYZED, MODERATELY.  HEMOLYSIS FALSELY ELEVATES K.",
+        "VERIFIED BY ALTERNATE METHODOLOGY.  HEMOLYSIS  FALSELY INCREASES THIS RESULT.",
+        "HEMOLYZED, SLIGHTLY.  HEMOLYSIS FALSELY ELEVATES K.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  MODERATELY HEMOLYZED.",
+        "HEMOLYSIS FALSELY ELEVATES K.  HEMOLYZED, GROSSLY.",
+        "HEMOLYSIS FALSELY ELEVATES K.  VERIFIED BY ALTERNATE METHODOLOGY.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  MOD. HEMOLYSIS.",
+        "HEMOLYSIS FALSELY ELEVATES K.  SLIGHTLY HEMOLYZED.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  HEMOLYZED, SLIGHTLY.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  VERIFIED BY ALTERNATE METHODOLOGY.",
+        "VERIFIED BY ALTERNATE METHODOLOGY.  HEMOLYSIS FALSELY ELEVATES K.  NEW REFERENCE RANGE AS OF ___.",
+        "Hemolysis falsely elevates this test.  Verified By Alternate Methodology.",
+        "HEMOLYSIS FALSELY ELEVATES K.  NEW REFERENCE RANGE AS OF ___.",
+        "HEMOLYZED, GROSSLY.  HEMOLYSIS FALSELY ELEVATES K.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  SLT. HEMOLYSIS.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  HEMOLYZED, MODERATELY.",
+        "VERIFIED BY REPLICATE ANALYSIS.  HEMOLYSIS FALSELY ELEVATES K.",
+        "VERIFIED BY ALTERNATE METHODOLOGY.  HEMOLYSIS FALSELY ELEVATES K.  HEMOLYZED, MODERATELY.",
+        "HEMOLYSIS FALSELY ELEVATES K.  MODERATELY HEMOLYZED.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  GROSS HEMOLYSIS.",
+        "VERIFIED BY REPLICATE ANALYSIS.  HEMOLYSIS  FALSELY INCREASES THIS RESULT.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  VERIFIED BY REPLICATE ANALYSIS.",
+        "HEMOLYSIS FALSELY ELEVATES K.  GROSSLY HEMOLYZED.",
+        "HEMOLYSIS  FALSELY INCREASES THIS RESULT.  NEW REFERENCE RANGE AS OF ___."
+    ],
+    "51492": [
+        "PH OF 8.5 OR ABOVE MAY CAUSE FALSELY ELEVATED URINE PROTEIN.",
+        "pH >= 8.5 may cause falsely elevated urine protein.",
+        "UNABLE TO REPORT.",
+        "TR*.  pH >= 8.5 may cause falsely elevated urine protein.",
+        "pH>=8.5 may cause falsely elevated urine protein.",
+        ">600*.  pH >= 8.5 may cause falsely elevated urine protein.",
+        "TR.  pH >= 8.5 may cause falsely elevated urine protein."
+    ],
+    "51274": [
+        "UNABLE TO REPORT.",
+        "UNABLE TO RESULT.",
+        "UNABLE TO REPORT, SPECIMEN QNS.",
+        "UNABLE TO PERFORM.",
+        "UNABLE TO REPORT.  SPECIMEN QNS.",
+        "UNABLE TO PERFORM TEST.",
+        "UNABLE TO REPORT, SPECIMEN CLOTTED.",
+        "UNABLE TO REPORT.  PT QNS.",
+        "UNABLE.  UNABLE TO PERFORM TEST.",
+        "UNABLE TO REPORT .",
+        "UNABLE.  UNABLE TO REPORT."
+    ],
+    "51275": [
+        "UNABLE TO REPORT.",
+        "UNABLE TO RESULT.",
+        "UNABLE TO REPORT.  CLOTTED SPECIMEN.",
+        "UNABLE TO REPORT.  SPECIMEN CLOTTED.",
+        "UNABLE TO REPORT.  PTT QNS.",
+        "UNABLE TO REPORT.  SPECIMEN QNS.",
+        "UNABLE TO PERFORM.",
+        "UNABLE TO REPORT.  QNS.",
+        "UNABLE TO REPORT, SPECIMEN CLOTTED.",
+        "UNABLE TO REPORT, SPECIMEN QNS.",
+        "UNABLE TO REPORT, QNS.",
+        "UNABLE TO REPORT.  PTT CLOTTED.",
+        "UNABLE TO REPORT.  CLOTTED.",
+        "UNABLE.  UNABLE TO PERFORM TEST.",
+        "UNABLE TO REPORT.  QNS SPECIMEN.",
+        "UNABLE TO REPORT, CLOTTED SAMPLE.",
+        "UNABLE TO REPORT PTT.",
+        "UNABLE TO REPORT-SPECIMEN CLOTTED.",
+        "UNABLE.  UNABLE TO REPORT.",
+        "UNABLE TO REPORT,QNS.",
+        "UNABLE TO PERFORM TEST."
+    ],
+    "51493": [
+        "UNABLE TO REPORT."
+    ],
+    "51277": [
+        "UNABLE TO REPORT.",
+        "UNABLE TO REPORT.  Dimorphic Population.",
+        "UNABLE TO REPORT.   SPECIMEN CLOTTED.",
+        "UNABLE TO REPORT CLOTTED.",
+        "UNABLE TO REPORT QNS.",
+        "UNABLE TO REPORT.  DIMORPHIC POPULATION.",
+        "UNABLE TO REPORT.  RDW IS NOT MEASURED WHEN DIMORPHIC POPULATION OF RBC IS PRESENT.",
+        "UNABLE TO PERFORM.",
+        "UNABLE.  UNABLE TO PERFORM TEST."
+    ],
+    "51279": [
+        "UNABLE TO REPORT.",
+        "UNABLE TO REPORT.   SPECIMEN CLOTTED.",
+        "UNABLE TO REPORT CLOTTED.",
+        "UNABLE TO REPORT QNS.",
+        "UNABLE.  UNABLE TO PERFORM TEST."
+    ],
+    "51498": [
+        "UNABLE TO REPORT."
+    ],
+    "51514": [
+        "UNABLE TO REPORT."
+    ],
+    "51516": [
+        "UNABLE TO REPORT."
+    ],
+    "51301": [
+        "UNABLE TO REPORT.",
+        "UNABLE TO REPORT CLOTTED.",
+        "UNABLE TO REPORT.  SPECIMEN CLOTTED.",
+        "UNABLE TO REPORT QNS.",
+        "UNABLE TO REPORT.  CLOTTED SPECIMEN.",
+        "UNABLE.  UNABLE TO PERFORM TEST.",
+        "UNABLE TO REPORT.  SPECIMEN QNS."
+    ],
+    "51519": [
+        "UNABLE TO REPORT."
+    ]
+}

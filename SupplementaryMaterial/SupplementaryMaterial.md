@@ -10,9 +10,8 @@ The ICD code definitions for each type of CVD are summarized in **Table A1** [1]
   
 <img alt="image" src="https://github.com/user-attachments/assets/0a2db664-7d34-4118-ba94-ba9016795d20" style="width:800px;"/>  
 
-#### **Fig. A1.** Population selection process for Task 1 (CVD dataset). 
-> Focusing on patients with at least one hospitalization occurring within 90 days after an ECG measurement. 
-> The final dataset included 44,790 CVD-related and 125,987 non-CVD ECG samples.
+#### **Fig. A1.** 
+> Population selection process for Task 1 (CVD dataset). Focusing on patients with at least one hospitalization occurring within 90 days after an ECG measurement. The final dataset included 44,790 CVD-related and 125,987 non-CVD ECG samples.  
 
 ### Data description
 1. **EHR Static Data:** Patient demographics included gender and age, extracted from the patient table. Latest outpatient measurements (systolic/diastolic blood pressure, weight, and height) were taken from the omr table. Medical history was defined based on ten CVD-related conditions reported in the literature [13], [14], [15], [16], with detailed definitions listed in **Table A1**. Medication history was derived from the prescriptions table, in which drugs were mapped to Anatomical Therapeutic Chemical (ATC) codes using the RxNorm API [17]. We selected ATC first-level class C (cardiovascular system) and grouped drugs by their third-level categories (e.g., C01A).  
@@ -27,10 +26,11 @@ Machine-generated ECG reports were further preprocessed and mapped to 143 SNOMED
 
 <img alt="image" src="https://github.com/user-attachments/assets/9b19845e-03b2-49e7-9adf-0802292f677b" style="width:800px;"/>
 
-#### **Fig. A2.** Examples of machine-generated ECG reports mapped to SNOMED CT clinical terms. 
-> Highlighted terms indicate structured mappings such as atrial flutter, atrioventricular (AV) block, and premature ventricular complexes (PVCs), which facilitate interpretable representation of diagnostic findings.
+#### **Fig. A2.** 
+> Examples of machine-generated ECG reports mapped to SNOMED CT clinical terms. Highlighted terms indicate structured mappings such as atrial flutter, atrioventricular (AV) block, and premature ventricular complexes (PVCs), which facilitate interpretable representation of diagnostic findings.
 
-#### **TABLE A1.** DEFINITIONS OF CVD CATEGORY AND MEDICAL HISTORY LABEL MAPPINGS
+#### **TABLE A1.** 
+> DEFINITIONS OF CVD CATEGORY AND MEDICAL HISTORY LABEL MAPPINGS
 <img alt="image" src="https://github.com/user-attachments/assets/9d02dbdd-c320-416e-8f16-7b4f172fc14c" style="width:700px;"/>
 
 ## II. TASK 2 & 3: MORTALITY AND LENGTH-OF-STAY (LOS) DATASET
@@ -40,13 +40,13 @@ The LOS dataset employed the same population as the Mortality dataset, with the 
 
 <img alt="image" src="https://github.com/user-attachments/assets/1a7bd0f7-1964-476a-8398-65ed4e744f03" style="width:800px;"/>
 
-#### **Fig. A3.** Population selection process for Task 2 (in-hospital mortality). 
-> The final cohort included 40,167 first ICU admission records, with 4,035 mortality cases (10.04%).
+#### **Fig. A3.** 
+> Population selection process for Task 2 (in-hospital mortality). The final cohort included 40,167 first ICU admission records, with 4,035 mortality cases (10.04%).
 
 <img alt="image" src="https://github.com/user-attachments/assets/1ddb2000-8c97-40ec-98d0-7c0a8a52cd8f" style="width:500px;"/>
 
-#### **Fig. A4.** Distribution of ICU length of stay (LOS) for Task 3. 
-> The mean LOS was 4.05 days with a standard deviation of 5.19 days.
+#### **Fig. A4.** 
+> Distribution of ICU length of stay (LOS) for Task 3. The mean LOS was 4.05 days with a standard deviation of 5.19 days.
 
 ### Data description
 1. **EHR Static Data:** Demographic information (gender, age) was extracted from the patient table, while admission details (admission type, admission location) were obtained from the admissions table.  
@@ -64,7 +64,7 @@ Detailed summaries of ECG features are provided in [Mortality_ECG.csv](DataDescr
 # B. EXPERIMENTAL SETUP
 ## I. HYPERPARAMETERS OF MEDM2T
 ### Model Hyperparameters
-**[Table B1](TABLE_B1.pdf)** summarizes the model hyperparameters of MedM2T. When values differed across tasks, they are reported in the format Task 1 / Task 2 / Task 3.
+**[Table B1](TABLE_B1.pdf)** summarizes the model hyperparameters of MedM2T. When values differed across tasks, they are reported in the format **Task 1 / Task 2 / Task 3**.
 #### Unimodal encoders:
 1. **Static:** encoded by a multilayer perceptron (MLP).
 2. **Labs:** encoded by the proposed sparse time-series encoder.  
@@ -88,7 +88,8 @@ all implemented as a one-layer MLP.
 We compared MedM2T against several state-of-the-art multimodal frameworks, including MultiBench [19], MultiModN [20], and HAIM [21]. For MultiBench and MultiModN, most hyperparameters were adopted from their original configurations applied for the MIMIC datasets, with minor adjustments to hidden dimensions and learning rates. HAIM followed the hyperparameter tuning strategy recommended in the original work. Each modality’s input type and encoder are summarized in Table B3, where time series (stats) refers to statistical feature extraction via the HAIM framework. MultiBench and MultiModN constructed multimodal learning frameworks using encoder–fusion–decoder architectures, whereas HAIM applied preprocessing followed by XGBoost for classification and regression.   
 For other compared models that did not explicitly provide hyperparameter settings, we used configurations consistent with MedM2T for similar data types and tasks, with additional tuning of learning rates.
 
-#### **TABLE B3.** MODALITY TYPE AND ENCODER OF COMPARED MULTIMODAL FRAMEWORKS
+#### **TABLE B3.** 
+> MODALITY TYPE AND ENCODER OF COMPARED MULTIMODAL FRAMEWORKS
 <img alt="image" src="https://github.com/user-attachments/assets/28dbcbdb-46ed-4b6c-aa8c-21b7b8c2c4b7" style="width:700px;"/>
 
 ## III. SAMPLE SIZES OF TASKS
@@ -98,13 +99,16 @@ Task 1 is a multiclass classification problem. **Table B5** presents the distrib
 ECG data were largely missing in Task 2 and Task 3, with only 46.7% sample having available ECG. In the ECG-available subset, only a few samples had over two ECG measurements in Task 2 and Task 3. 
 **Table B6** summarizes the proportion of samples containing multiple ECG measurements in each task. 
 
-#### **TABLE B4.** SAMPLE SIZES OF TASKS
+#### **TABLE B4.** 
+> SAMPLE SIZES OF TASKS
 <img alt="image" src="https://github.com/user-attachments/assets/75d68fc1-df11-4c8d-9783-359f46e9c4e7" style="width:600px;"/>
 
-#### **TABLE B5.** SAMPLE DISTRIBUTION ACROSS CVD CATEGORIES FOR TASK 1
+#### **TABLE B5.** 
+> SAMPLE DISTRIBUTION ACROSS CVD CATEGORIES FOR TASK 1
 <img alt="image" src="https://github.com/user-attachments/assets/57417465-089d-412d-91cd-8fa288d6b79d" style="width:600px;"/>
 
-#### **TABLE B6.** PROPORTION OF SAMPLES WITH MULTIPLE ECG MEASUREMENTS
+#### **TABLE B6.** 
+> PROPORTION OF SAMPLES WITH MULTIPLE ECG MEASUREMENTS
 <img alt="image" src="https://github.com/user-attachments/assets/8cf7f42f-a1a0-4f26-b838-441bc86bec8e" style="width:500px;"/>
 
 # C. EXPERIMENTAL RESULTS
@@ -113,14 +117,16 @@ ECG data were largely missing in Task 2 and Task 3, with only 46.7% sample havin
 The distinction between multimodal combinations highlights the diverse contributions of each modality. The exclusion of laboratory tests led to the largest performance drop in Task 1 and Task 2, whereas the exclusion of vital signs caused the greatest decline in Task 3. 
 Notably, for Task 2, vitals achieved the best unimodal performance, whereas the exclusion of laboratory tests caused the largest degradation, suggesting that laboratory tests provide complementary and distinctive information when combined with other modalities.
 
-#### **TABLE C1.** PERFORMANCE OF MEDM2T ACROSS UNIMODAL AND MULTIMODAL
+#### **TABLE C1.** 
+> PERFORMANCE OF MEDM2T ACROSS UNIMODAL AND MULTIMODAL
 <img alt="image" src="https://github.com/user-attachments/assets/ce0a8644-7b71-4921-ba0a-93e8f898e866" style="width:700px;"/>
 
 **Table C2** provides the detailed results of Task 1 (CVD prediction) across four categories: non-CVD, CHD, stroke, and HF, serving as supplementary details corresponding to Fig. 5 in the main manuscript.  
 For unimodal, the static extended subset (including medical history and medications) achieved substantially better performance than the core subset across all classes. 
 As more modalities were integrated, the performance gap between the core and extended subsets diminished, suggesting complementary information across modalities.
 
-#### **TABLE C2.** PERFORMANCE OF MEDM2T FOR TASK 1 (CVD PREDICTION) ACROSS FOUR CATEGORIES
+#### **TABLE C2.** 
+> PERFORMANCE OF MEDM2T FOR TASK 1 (CVD PREDICTION) ACROSS FOUR CATEGORIES
 <img alt="image" src="https://github.com/user-attachments/assets/ff0ca0b2-040c-4110-ab0c-65fb9c552971" style="width:700px;"/>
 
 ## II. BI-MODAL ATTENTION ABLATION STUDY IN TASK 1
@@ -128,7 +134,8 @@ As more modalities were integrated, the performance gap between the core and ext
 Here, we further validate its effect across different multimodal combinations, a random subset of the multiclass task (N=50,000), and a binary classification task (CVD vs. non-CVD, N=50,000).  
 In all cases, incorporating Bi-Modal Attention consistently improved both AUROC and AUPRC compared with models trained without it.
 
-#### **TABLE C3.** ABLATION STUDY OF BI-MODAL ATTENTION IN TASK 1
+#### **TABLE C3.** 
+> ABLATION STUDY OF BI-MODAL ATTENTION IN TASK 1
 <img alt="image" src="https://github.com/user-attachments/assets/da7c4644-8c33-42b8-b98d-075f328bf2a8" style="width:700px;"/>
 
 ## III. PERFORMANCE OF COMPARATIVE FRAMEWORKS
@@ -137,7 +144,8 @@ This table provides supplementary details corresponding to Table V in the main m
 The input data types and encoders for each modality are summarized in **Table B3**.  
 Across all three tasks, MedM2T got the best results under multimodal integration, while HAIM showed competitive performance in unimodal settings with static or laboratory data.
 
-#### **TABLE C4.*** COMPARISON OF MEDM2T WITH OTHER MULTIMODAL FRAMEWORKS
+#### **TABLE C4.**
+> COMPARISON OF MEDM2T WITH OTHER MULTIMODAL FRAMEWORKS
 <img alt="image" src="https://github.com/user-attachments/assets/3bcdfd49-5a9c-498c-a635-b2f95c307d3f" style="width:700px;"/>
 
 # REFERENCE

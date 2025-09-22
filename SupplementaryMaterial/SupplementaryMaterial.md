@@ -1,7 +1,7 @@
 # A. DATASET
 ## I. TASK 1: CVD DATASET
 ### Population selection
-**Fig. A1** illustrates the population selection process for the CVD dataset used in Task 1. 
+**[Fig. A1](#fig-a1)** illustrates the population selection process for the CVD dataset used in Task 1. 
 Patients were included if they had at least one hospitalization occurring within 90 days after an ECG measurement. 
 Patients were excluded if they were under 18 years of age or over 89 years of age, or if their hospital stays were shorter than 24 hours. 
 Records with admissions containing CVD diagnoses but without CVD as the primary diagnosis or operation were excluded, as the cause of admission could not be confirmed to be CVD-related.  

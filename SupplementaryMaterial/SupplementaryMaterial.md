@@ -16,14 +16,14 @@ The ICD code definitions for each type of CVD are summarized in **Table A1** [1]
 
 ### Data description
 1. **EHR Static Data:** Patient demographics included gender and age, extracted from the patient table. Latest outpatient measurements (systolic/diastolic blood pressure, weight, and height) were taken from the omr table. Medical history was defined based on ten CVD-related conditions reported in the literature [13], [14], [15], [16], with detailed definitions listed in **Table A1**. Medication history was derived from the prescriptions table, in which drugs were mapped to Anatomical Therapeutic Chemical (ATC) codes using the RxNorm API [17]. We selected ATC first-level class C (cardiovascular system) and grouped drugs by their third-level categories (e.g., C01A).  
-Detailed variable summaries are provided in [CVD_Static.csv](SupplementaryMaterial/DataDescriptions/CVD_Static.csv), and the codebook is available at [Codebook.md](SupplementaryMaterial/DataDescriptions/Codebook.md).
+Detailed variable summaries are provided in [CVD_Static.csv](DataDescriptions/CVD_Static.csv), and the codebook is available at [Codebook.md](DataDescriptions/Codebook.md).
 
 2. **Laboratory Results:** Eight laboratory tests relevant to CVD were selected according to prior studies [13], [14], [15], [16], including estimated glomerular filtration rate (eGFR), troponin T, creatine kinase, creatine kinase-MB, serum creatinine, high-density lipoprotein (HDL) cholesterol, low-density lipoprotein (LDL) cholesterol, and total cholesterol. These values were obtained from the labevents table.  
-Detailed variable summaries are provided in [CVD_Labs.csv](SupplementaryMaterial/DataDescriptions/CVD_Labs.csv), with the corresponding codebook in [Codebook.md](SupplementaryMaterial/DataDescriptions/Codebook.md).
+Detailed variable summaries are provided in [CVD_Labs.csv](DataDescriptions/CVD_Labs.csv), with the corresponding codebook in [Codebook.md](DataDescriptions/Codebook.md).
 
 3. **ECG Signals, Text, and Features:** Raw 12-lead ECG recordings (500 Hz, 10 s) underwent the following preprocessing steps: (1) interpolation of missing values, (2) down-sampling to 125 Hz, (3) removal of noise and baseline wander, (4) application of a third-order Butterworth band-pass filter (0.5–40 Hz), and (5) segmentation into 5-second windows.  
-Besides raw signals, nine time-domain features (e.g., heart rate, PR interval) were got from machine-generated ECG reports. Detailed variable summaries are provided in [CVD_ECG.csv](SupplementaryMaterial/DataDescriptions/CVD_ECG.csv).  
-Machine-generated ECG reports were further preprocessed and mapped to 143 SNOMED CT clinical terms [18], providing structured and interpretable diagnostic judgments. Examples of the mapping are shown in **Fig. A2**, and the distribution of mapped samples is summarized in [ECG_Notes.csv](SupplementaryMaterial/DataDescriptions/ECG_Notes.csv).
+Besides raw signals, nine time-domain features (e.g., heart rate, PR interval) were got from machine-generated ECG reports. Detailed variable summaries are provided in [CVD_ECG.csv](DataDescriptions/CVD_ECG.csv).  
+Machine-generated ECG reports were further preprocessed and mapped to 143 SNOMED CT clinical terms [18], providing structured and interpretable diagnostic judgments. Examples of the mapping are shown in **Fig. A2**, and the distribution of mapped samples is summarized in [ECG_Notes.csv](DataDescriptions/ECG_Notes.csv).
 
 <img alt="image" src="https://github.com/user-attachments/assets/9b19845e-03b2-49e7-9adf-0802292f677b" style="width:800px;"/>
 
@@ -50,21 +50,21 @@ The LOS dataset employed the same population as the Mortality dataset, with the 
 
 ### Data description
 1. **EHR Static Data:** Demographic information (gender, age) was extracted from the patient table, while admission details (admission type, admission location) were obtained from the admissions table.  
-Detailed variable summarize are available in [Mortality_Static.csv](SupplementaryMaterial/DataDescriptions/Mortality_Static.csv), and the codebook is provided in [Codebook.md](SupplementaryMaterial/DataDescriptions/Codebook.md).
+Detailed variable summarize are available in [Mortality_Static.csv](DataDescriptions/Mortality_Static.csv), and the codebook is provided in [Codebook.md](DataDescriptions/Codebook.md).
 
 2. **Vital Signs:** Hourly vital sign measurements were derived from the chartevents table. Only variables with less than 80% missingness across all ICU patients were selected. Multiple itemid entries corresponding to the same variable (e.g., 220179, 220050, 224167, 227243 for systolic blood pressure) were merged into a single representative identifier (e.g., 220179).  
-Detailed variable summaries are provided in [Mortality_Vitals.csv](SupplementaryMaterial/DataDescriptions/Mortality_Vitals.csv).
+Detailed variable summaries are provided in [Mortality_Vitals.csv](DataDescriptions/Mortality_Vitals.csv).
 
 3. **Laboratory Tests:** Laboratory test results were extracted from the chartevent and labevents tables. Only variables with less than 80% missingness across all ICU patients were selected. Multiple itemid entries corresponding to the same variable were merged according to test item and specimen type (e.g., 50862 and 227456 for blood albumin were merged into 50862). Units were standardized before merging, and duplicate entries recorded at the same time were removed.  
-Detailed variable summaries are provided in [Mortality_Labs.csv](SupplementaryMaterial/DataDescriptions/Mortality_Labs.csv).
+Detailed variable summaries are provided in [Mortality_Labs.csv](DataDescriptions/Mortality_Labs.csv).
 
 4. **ECG Signals, Text, and Features:** The ECG preprocessing procedure was identical to Task 1.  
-Detailed summaries of ECG features are provided in [Mortality_ECG.csv](SupplementaryMaterial/DataDescriptions/Mortality_ECG.csv).
+Detailed summaries of ECG features are provided in [Mortality_ECG.csv](DataDescriptions/Mortality_ECG.csv).
 
 # B. EXPERIMENTAL SETUP
 ## I. HYPERPARAMETERS OF MEDM2T
 ### Model Hyperparameters
-**[Table B1](SupplementaryMaterial/TABLE_B1.pdf)** summarizes the model hyperparameters of MedM2T. When values differed across tasks, they are reported in the format Task 1 / Task 2 / Task 3.
+**[Table B1](TABLE_B1.pdf)** summarizes the model hyperparameters of MedM2T. When values differed across tasks, they are reported in the format Task 1 / Task 2 / Task 3.
 #### Unimodal encoders:
 1. **Static:** encoded by a multilayer perceptron (MLP).
 2. **Labs:** encoded by the proposed sparse time-series encoder.  
@@ -82,7 +82,7 @@ composed of modality-specific encoders for each input type, a shared encoder, an
 all implemented as a one-layer MLP.
 
 ### Algorithm Hyperparameters
-**[Table B2](SupplementaryMaterial/TABLE_B2.pdf)** lists the algorithm hyperparameters used during model training. An early stopping strategy was applied, with the maximum number of epochs set to 20.
+**[Table B2](TABLE_B2.pdf)** lists the algorithm hyperparameters used during model training. An early stopping strategy was applied, with the maximum number of epochs set to 20.
 
 ## II. HYPERPARAMETERS OF COMPARED MODELS
 We compared MedM2T against several state-of-the-art multimodal frameworks, including MultiBench [19], MultiModN [20], and HAIM [21]. For MultiBench and MultiModN, most hyperparameters were adopted from their original configurations applied for the MIMIC datasets, with minor adjustments to hidden dimensions and learning rates. HAIM followed the hyperparameter tuning strategy recommended in the original work. Each modality’s input type and encoder are summarized in Table B3, where time series (stats) refers to statistical feature extraction via the HAIM framework. MultiBench and MultiModN constructed multimodal learning frameworks using encoder–fusion–decoder architectures, whereas HAIM applied preprocessing followed by XGBoost for classification and regression.   

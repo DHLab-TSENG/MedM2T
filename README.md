@@ -6,7 +6,7 @@ This repository contains the official implementation of **MedM2T**, as described
 
 ### Supplementary Material
 The supplementary materials provide extended tables, figures, and detailed dataset descriptions.
-* [Supplementary Document (PDF)](SupplementaryMaterial/SupplementaryMaterial.pdf)
+* [Supplementary Document](SupplementaryMaterial/SupplementaryMaterial.md)
 * [Additional Supplementary Files](SupplementaryMaterial/)
 
 ### MedM2T Repository Structure

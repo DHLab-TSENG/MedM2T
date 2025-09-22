@@ -6,7 +6,7 @@ Patients were included if they had at least one hospitalization occurring within
 Patients were excluded if they were under 18 years of age or over 89 years of age, or if their hospital stays were shorter than 24 hours. 
 Records with admissions containing CVD diagnoses but without CVD as the primary diagnosis or operation were excluded, as the cause of admission could not be confirmed to be CVD-related.  
 After applying these criteria, the dataset comprised 44,790 CVD-related ECG samples from 13,289 patients, further categorized into coronary heart disease (CHD, N=18,445), stroke (N=4,927), and heart failure (HF, N=21,418). In addition, 125,987 non-CVD ECG samples from 52,388 patients were identified. 
-The ICD code definitions for each type of CVD are summarized in **Table A1** [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12].  
+The ICD code definitions for each type of CVD are summarized in **[Table A1](#table-a1)** [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12].  
   
 <img alt="image" src="https://github.com/user-attachments/assets/0a2db664-7d34-4118-ba94-ba9016795d20" style="width:800px;"/>  
 
@@ -14,7 +14,7 @@ The ICD code definitions for each type of CVD are summarized in **Table A1** [1]
 > Population selection process for Task 1 (CVD dataset). Focusing on patients with at least one hospitalization occurring within 90 days after an ECG measurement. The final dataset included 44,790 CVD-related and 125,987 non-CVD ECG samples.  
 
 ### Data description
-1. **EHR Static Data:** Patient demographics included gender and age, extracted from the patient table. Latest outpatient measurements (systolic/diastolic blood pressure, weight, and height) were taken from the omr table. Medical history was defined based on ten CVD-related conditions reported in the literature [13], [14], [15], [16], with detailed definitions listed in **Table A1**. Medication history was derived from the prescriptions table, in which drugs were mapped to Anatomical Therapeutic Chemical (ATC) codes using the RxNorm API [17]. We selected ATC first-level class C (cardiovascular system) and grouped drugs by their third-level categories (e.g., C01A).  
+1. **EHR Static Data:** Patient demographics included gender and age, extracted from the patient table. Latest outpatient measurements (systolic/diastolic blood pressure, weight, and height) were taken from the omr table. Medical history was defined based on ten CVD-related conditions reported in the literature [13], [14], [15], [16], with detailed definitions listed in **[Table A1](#table-a1)**. Medication history was derived from the prescriptions table, in which drugs were mapped to Anatomical Therapeutic Chemical (ATC) codes using the RxNorm API [17]. We selected ATC first-level class C (cardiovascular system) and grouped drugs by their third-level categories (e.g., C01A).  
 Detailed variable summaries are provided in [CVD_Static.csv](DataDescriptions/CVD_Static.csv), and the codebook is available at [Codebook.md](DataDescriptions/Codebook.md).
 
 2. **Laboratory Results:** Eight laboratory tests relevant to CVD were selected according to prior studies [13], [14], [15], [16], including estimated glomerular filtration rate (eGFR), troponin T, creatine kinase, creatine kinase-MB, serum creatinine, high-density lipoprotein (HDL) cholesterol, low-density lipoprotein (LDL) cholesterol, and total cholesterol. These values were obtained from the labevents table.  
@@ -22,7 +22,7 @@ Detailed variable summaries are provided in [CVD_Labs.csv](DataDescriptions/CVD_
 
 3. **ECG Signals, Text, and Features:** Raw 12-lead ECG recordings (500 Hz, 10 s) underwent the following preprocessing steps: (1) interpolation of missing values, (2) down-sampling to 125 Hz, (3) removal of noise and baseline wander, (4) application of a third-order Butterworth band-pass filter (0.5–40 Hz), and (5) segmentation into 5-second windows.  
 Besides raw signals, nine time-domain features (e.g., heart rate, PR interval) were got from machine-generated ECG reports. Detailed variable summaries are provided in [CVD_ECG.csv](DataDescriptions/CVD_ECG.csv).  
-Machine-generated ECG reports were further preprocessed and mapped to 143 SNOMED CT clinical terms [18], providing structured and interpretable diagnostic judgments. Examples of the mapping are shown in **Fig. A2**, and the distribution of mapped samples is summarized in [ECG_Notes.csv](DataDescriptions/ECG_Notes.csv).
+Machine-generated ECG reports were further preprocessed and mapped to 143 SNOMED CT clinical terms [18], providing structured and interpretable diagnostic judgments. Examples of the mapping are shown in **[Fig. A2](#fig-a2)**, and the distribution of mapped samples is summarized in [ECG_Notes.csv](DataDescriptions/ECG_Notes.csv).
 
 <img alt="image" src="https://github.com/user-attachments/assets/9b19845e-03b2-49e7-9adf-0802292f677b" style="width:800px;"/>
 
@@ -35,8 +35,8 @@ Machine-generated ECG reports were further preprocessed and mapped to 143 SNOMED
 
 ## II. TASK 2 & 3: MORTALITY AND LENGTH-OF-STAY (LOS) DATASET
 ### Population selection
-**Fig. A3** shows the population selection process for the Mortality dataset. We included only the patient’s first ICU admission and excluded records with ICU stays shorter than 24 hours. After applying these criteria, the dataset contained 40,167 records, of which 4,035 (10.04%) corresponded to in-hospital deaths.  
-The LOS dataset employed the same population as the Mortality dataset, with the length of ICU stay calculated for each patient. The average LOS was 4.05 days (SD = 5.19), and the distribution is shown in **Fig. A4**.
+**[Fig. A3](#fig-a3)** shows the population selection process for the Mortality dataset. We included only the patient’s first ICU admission and excluded records with ICU stays shorter than 24 hours. After applying these criteria, the dataset contained 40,167 records, of which 4,035 (10.04%) corresponded to in-hospital deaths.  
+The LOS dataset employed the same population as the Mortality dataset, with the length of ICU stay calculated for each patient. The average LOS was 4.05 days (SD = 5.19), and the distribution is shown in **[Fig. A4](#fig-a4)**.
 
 <img alt="image" src="https://github.com/user-attachments/assets/1a7bd0f7-1964-476a-8398-65ed4e744f03" style="width:800px;"/>
 
@@ -85,7 +85,7 @@ all implemented as a one-layer MLP.
 **[Table B2](TABLE_B2.pdf)** lists the algorithm hyperparameters used during model training. An early stopping strategy was applied, with the maximum number of epochs set to 20.
 
 ## II. HYPERPARAMETERS OF COMPARED MODELS
-We compared MedM2T against several state-of-the-art multimodal frameworks, including MultiBench [19], MultiModN [20], and HAIM [21]. For MultiBench and MultiModN, most hyperparameters were adopted from their original configurations applied for the MIMIC datasets, with minor adjustments to hidden dimensions and learning rates. HAIM followed the hyperparameter tuning strategy recommended in the original work. Each modality’s input type and encoder are summarized in Table B3, where time series (stats) refers to statistical feature extraction via the HAIM framework. MultiBench and MultiModN constructed multimodal learning frameworks using encoder–fusion–decoder architectures, whereas HAIM applied preprocessing followed by XGBoost for classification and regression.   
+We compared MedM2T against several state-of-the-art multimodal frameworks, including MultiBench [19], MultiModN [20], and HAIM [21]. For MultiBench and MultiModN, most hyperparameters were adopted from their original configurations applied for the MIMIC datasets, with minor adjustments to hidden dimensions and learning rates. HAIM followed the hyperparameter tuning strategy recommended in the original work. Each modality’s input type and encoder are summarized in **[Table B3](#table-b3)**, where time series (stats) refers to statistical feature extraction via the HAIM framework. MultiBench and MultiModN constructed multimodal learning frameworks using encoder–fusion–decoder architectures, whereas HAIM applied preprocessing followed by XGBoost for classification and regression.   
 For other compared models that did not explicitly provide hyperparameter settings, we used configurations consistent with MedM2T for similar data types and tasks, with additional tuning of learning rates.
 
 #### **TABLE B3.** 
@@ -94,10 +94,10 @@ For other compared models that did not explicitly provide hyperparameter setting
 
 ## III. SAMPLE SIZES OF TASKS
 For unimodal tasks, only the subset of samples with available data in the specific modality was used, whereas multimodal tasks utilized the full cohort. 
-**Table B4** reports the number of samples for each task. For ECG-related modalities (ECG (T), ECG (S), ECG (F), and ECG (Fusion)), each ECG measurement record was treated as a separate training sample.  
-Task 1 is a multiclass classification problem. **Table B5** presents the distribution of samples across CVD categories for each modality.  
+**[Table B4](#table-b4)** reports the number of samples for each task. For ECG-related modalities (ECG (T), ECG (S), ECG (F), and ECG (Fusion)), each ECG measurement record was treated as a separate training sample.  
+Task 1 is a multiclass classification problem. **[Table B5](#table-b5)** presents the distribution of samples across CVD categories for each modality.  
 ECG data were largely missing in Task 2 and Task 3, with only 46.7% sample having available ECG. In the ECG-available subset, only a few samples had over two ECG measurements in Task 2 and Task 3. 
-**Table B6** summarizes the proportion of samples containing multiple ECG measurements in each task. 
+**[Table B6](#table-b6)** summarizes the proportion of samples containing multiple ECG measurements in each task. 
 
 #### **TABLE B4.** 
 > SAMPLE SIZES OF TASKS
@@ -113,7 +113,7 @@ ECG data were largely missing in Task 2 and Task 3, with only 46.7% sample havin
 
 # C. EXPERIMENTAL RESULTS
 ## I. MEDM2T RESULT
-**Table C1** presents the results of MedM2T under all unimodal and multimodal combinations across the three tasks, providing supplementary details corresponding to **Table IV** in the main manuscript.  
+**[Table C1](#table-c1)** presents the results of MedM2T under all unimodal and multimodal combinations across the three tasks, providing supplementary details corresponding to **Table IV** in the main manuscript.  
 The distinction between multimodal combinations highlights the diverse contributions of each modality. The exclusion of laboratory tests led to the largest performance drop in Task 1 and Task 2, whereas the exclusion of vital signs caused the greatest decline in Task 3. 
 Notably, for Task 2, vitals achieved the best unimodal performance, whereas the exclusion of laboratory tests caused the largest degradation, suggesting that laboratory tests provide complementary and distinctive information when combined with other modalities.
 
@@ -121,7 +121,7 @@ Notably, for Task 2, vitals achieved the best unimodal performance, whereas the 
 > PERFORMANCE OF MEDM2T ACROSS UNIMODAL AND MULTIMODAL
 <img alt="image" src="https://github.com/user-attachments/assets/ce0a8644-7b71-4921-ba0a-93e8f898e866" style="width:700px;"/>
 
-**Table C2** provides the detailed results of Task 1 (CVD prediction) across four categories: non-CVD, CHD, stroke, and HF, serving as supplementary details corresponding to Fig. 5 in the main manuscript.  
+**[Table C2](#table-c2)** provides the detailed results of Task 1 (CVD prediction) across four categories: non-CVD, CHD, stroke, and HF, serving as supplementary details corresponding to Fig. 5 in the main manuscript.  
 For unimodal, the static extended subset (including medical history and medications) achieved substantially better performance than the core subset across all classes. 
 As more modalities were integrated, the performance gap between the core and extended subsets diminished, suggesting complementary information across modalities.
 
@@ -130,7 +130,7 @@ As more modalities were integrated, the performance gap between the core and ext
 <img alt="image" src="https://github.com/user-attachments/assets/ff0ca0b2-040c-4110-ab0c-65fb9c552971" style="width:700px;"/>
 
 ## II. BI-MODAL ATTENTION ABLATION STUDY IN TASK 1
-**Table C3** provides an ablation study of the Bi-Modal Attention module in Task 1 (CVD prediction). As reported in the main manuscript (Table V), Bi-Modal Attention enhances multimodal learning performance. 
+**[Table C3](#table-c3)** provides an ablation study of the Bi-Modal Attention module in Task 1 (CVD prediction). As reported in the main manuscript (**Table V**), Bi-Modal Attention enhances multimodal learning performance. 
 Here, we further validate its effect across different multimodal combinations, a random subset of the multiclass task (N=50,000), and a binary classification task (CVD vs. non-CVD, N=50,000).  
 In all cases, incorporating Bi-Modal Attention consistently improved both AUROC and AUPRC compared with models trained without it.
 
@@ -139,9 +139,9 @@ In all cases, incorporating Bi-Modal Attention consistently improved both AUROC 
 <img alt="image" src="https://github.com/user-attachments/assets/da7c4644-8c33-42b8-b98d-075f328bf2a8" style="width:700px;"/>
 
 ## III. PERFORMANCE OF COMPARATIVE FRAMEWORKS
-**Table C4** compares the performance of MedM2T with other state-of-the-art multimodal frameworks (MultiBench, MultiModN, and HAIM) under unimodal and multimodal across the three tasks. 
-This table provides supplementary details corresponding to Table V in the main manuscript. For MultiBench, MultiModN, and HAIM, we adopted the encoder configurations recommended in their original implementations. 
-The input data types and encoders for each modality are summarized in **Table B3**.  
+**[Table C4](#table-c4)** compares the performance of MedM2T with other state-of-the-art multimodal frameworks (MultiBench, MultiModN, and HAIM) under unimodal and multimodal across the three tasks. 
+This table provides supplementary details corresponding to **Table V** in the main manuscript. For MultiBench, MultiModN, and HAIM, we adopted the encoder configurations recommended in their original implementations. 
+The input data types and encoders for each modality are summarized in **[Table B3](#table-b3)**.  
 Across all three tasks, MedM2T got the best results under multimodal integration, while HAIM showed competitive performance in unimodal settings with static or laboratory data.
 
 #### **TABLE C4.**
